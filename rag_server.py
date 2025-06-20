@@ -59,7 +59,7 @@ Answer:"""
 
     except Exception as e:
         print(f"Error during inference: {e}")
-        answer = "Sorry, I couldn't generate a response at the moment."
+        answer = "Sorry, I couldn't Generate a response at the moment."
 
     return jsonify({"Answer": answer})
 
