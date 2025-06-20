@@ -1,0 +1,15 @@
+# Don’t commit Python venv
+venv/
+
+# Don’t commit llama.cpp repo
+llama.cpp/
+
+# Don’t commit downloaded HF shards
+llama2-7b-hf/
+
+# Don’t commit large models
+models/
+
+# Byte‑compiled / cache
+__pycache__/
+*.pyc
