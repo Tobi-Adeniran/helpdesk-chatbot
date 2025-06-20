@@ -61,7 +61,7 @@ Answer:"""
         print(f"Error during inference: {e}")
         answer = "Sorry, I couldn't generate a response at the moment."
 
-    return jsonify({"answer": answer})
+    return jsonify({"Answer": answer})
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
